@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <section class="add">
+        <button id="adoptBtn">Adopt a new pet</button>
+        <form action="submit" id="formadd">
+        <input type="text" id="petname" placeholder="Eneter your pet name" required>
+        <select name="Pet Type" id="pettype">
+            <option value="Dragon 🐉">Dragon 🐉</option>
+            <option value="Unicorn 🦄">Unicorn 🦄</option>
+            <option value="Phoenix 🔥">Phoenix 🔥</option>
+            <option value="Fairy 🧚">Fairy 🧚</option>
+            <option value="Griffin 🦅">Griffin 🦅</option>
+        </select>
+        <input type="text" id="colorinp" placeholder="Pet color: Pink, Golden, Rainbow ...">
+        <input type="text" id="desc" placeholder="Description" required>
+        <button type="submit" id="addBtn">Add the pet card</button>
+        </form>
+    </section>
+
+    <section class="petslist">
+        <h1>Pets List🐾✨</h1>
+        <hr>
+        <ul class="petscard">
+        </ul>
+    </section>
+    <script src="test.js"></script>
+</body>
+</html
